@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663084225595",
+    "project_id": "com-lsg-awaaiapp-ec449",
+    "storage_bucket": "com-lsg-awaaiapp-ec449.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663084225595:android:c2d24205113f5dde94b81e",
+        "android_client_info": {
+          "package_name": "com.LSG.awaaiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXJnaAJRpa_QvA77c8_sooaVXdH4kXBq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
