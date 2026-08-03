@@ -87,6 +87,8 @@ jobs:
           for size in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
             DIR="app/src/main/res/mipmap-${size}"
             mkdir -p "$DIR"
+            # Remove existing .webp icons to avoid duplicate-resource conflicts with the downloaded .png
+            rm -f "${DIR}/ic_launcher.webp" "${DIR}/ic_launcher_round.webp"
             curl -s -L -f -o "${DIR}/ic_launcher.png" "${{ github.event.inputs.icon_url }}" && \
             cp "${DIR}/ic_launcher.png" "${DIR}/ic_launcher_round.png" || true
           done
