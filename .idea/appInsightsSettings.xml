@@ -22,10 +22,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.LSG.awaaiapp" />
-                  <option name="mobileSdkAppId" value="1:663084225595:android:c2d24205113f5dde94b81e" />
-                  <option name="projectId" value="com-lsg-awaaiapp-ec449" />
-                  <option name="projectNumber" value="663084225595" />
+                  <option name="appId" value="PLACEHOLDER" />
+                  <option name="mobileSdkAppId" value="" />
+                  <option name="projectId" value="" />
+                  <option name="projectNumber" value="" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
